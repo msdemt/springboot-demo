@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    local:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/school?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+      driver-class-name: org.mariadb.jdbc.Driver
+      username: root
+      password: root
+    slurm:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/slurm_acct_db?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+      driver-class-name: org.mariadb.jdbc.Driver
+      username: root
+      password: root
+
